@@ -1,6 +1,8 @@
 # Known-Interview-Questions
 Going through technical questions companies are known to ask. These questions can be found on CodeSignal Interview mode.
 
+For each question, I will try different ways to approach the problem. At the end of each question, I will also include the recommended solution, if the solution I come to is too inefficient.
+
 # Arrays
   ### First Duplicate - Asked by Google
   Given an array a that contains only numbers in the range from 1 to a.length, find the first duplicate number for which the second occurrence has the minimal index. For Example:
