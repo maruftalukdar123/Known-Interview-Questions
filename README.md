@@ -11,9 +11,9 @@ Going through technical questions companies are known to ask. These questions ca
   Given a string s consisting of small English letters, find and return the first instance of a non-repeating character in it. If there is no such character, return '_'.
   
   ### Rotate Image - Asked by Amazon, Microsoft, Apple
-  Note: Try to solve this task in-place (with O(1) additional memory), since this is what you'll be asked to do during an interview.
+  Note: Try to solve this task in-place (with `O(1)` additional memory), since this is what you'll be asked to do during an interview.
   
-  You are given an n x n 2D matrix that represents an image. Rotate the image by 90 degrees (clockwise).cFor example
+  You are given an `n x n` 2D matrix that represents an image. Rotate the image by 90 degrees (clockwise).cFor example
 
     a = [[1, 2, 3],
   
@@ -36,15 +36,17 @@ Going through technical questions companies are known to ask. These questions ca
  A cryptarithm is a mathematical puzzle for which the goal is to find the correspondence between letters and digits, such that the given arithmetic equation consisting of letters holds true when the letters are converted to digits.
 
   For 
-      crypt = ["SEND", "MORE", "MONEY"]
-  and
-      solution = [['O', '0'],
-                  ['M', '1'],
-                  ['Y', '2'],
-                  ['E', '5'],
-                  ['N', '6'],
-                  ['D', '7'],
-                  ['R', '8'],
-                  ['S', '9']]
+      `crypt = ["SEND", "MORE", "MONEY"]`
+  and <br>
+  ```python
+  solution = [['O', '0'],
+  ['M', '1'],
+  ['Y', '2'],
+  ['E', '5'],
+  ['N', '6'],
+  ['D', '7'],
+  ['R', '8'],
+  ['S', '9']]
+  ```
                   
-  When you decrypt "SEND", "MORE", and "MONEY" using the mapping given in crypt, you get 9567 + 1085 = 10652 which is correct and a valid arithmetic equation.
+  When you decrypt `"SEND", "MORE", and "MONEY"` using the mapping given in crypt, you get `9567 + 1085 = 10652` which is correct and a valid arithmetic equation.
